@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.shedule {
+    margin: 0 auto;  
+    border: 1px solid gray;
+    border-spacing: 0;
+}
+
+
+.table_rows_gray {
+    background: #ecf0f2;
+}
+
+
+.table_title {
+    text-transform: capitalize;
+    text-align-last: left;
+    font-size: 20px;
+    width: 200px;
+    color: black;
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.table_column {
+    margin: 0;
+    padding: 3px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20px;
+    height: 20px;
+    border: solid 1px white;
+    color: white;
+    
+}
+
+.table_column_week {
+    height: 70px;
+}
+
+.table_column_week1 {
+    background-color: #22b4d9;
+}
+
+.table_column_week2 {
+    background-color: #38c255;
+}
+
+.table_column_week3 {
+    background-color: #fa7d00;
+}
+
+.table_column_week4 {
+    background-color: #c967b2;
+}
+
+.table_column_subtitle {
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.table_column_numb {
+    width: 40px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.table_column_black {
+    background-color: #505a66;
+}
+
+.table_column_pink {
+    background-color: #be46a7;
+}
+
+.table_column_yellow {
+    background-color: #ffcb01;
+    color: black;
+    font-size: 10px;
+}
+
+.table_column_wrapper {
+    padding: 0 15px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.table_wrapper_item {
+    padding: 5px;
+    margin: 5px 5px;
+    color: black;
+    width: 40%;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.table_column_day {
+    color: black;
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
+.table_column_border {
+    border: none;
+}
+
+.table_column_wrapper_day {
+    width: 40px;
+    justify-content: center;
+}
+
+.table_wrapper_item_day {
+    width: 50%;
+    text-transform: lowercase;
+
+}

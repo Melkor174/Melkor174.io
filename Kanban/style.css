@@ -1,0 +1,80 @@
+body { 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.kanban {
+    border: 1px solid black;
+    margin: 0 auto;  
+    width: 1300px;
+    text-transform: capitalize;
+}
+
+.table_row_priority {
+    background-color: #b4b5b3;
+}
+
+.table_column {
+    text-align: center;
+    border: 1px solid;
+    height: 30px;
+    padding: 0  5px;
+}
+
+.table_column_none {
+    visibility: hidden;
+}
+
+.table_column_todo {
+    width: 160px;
+}
+
+
+.table_column_item {
+    padding-top: 20px;
+    height: 100px;
+    background-color: #f7e6a8;
+}
+
+.table_column_item_blue {
+    background-color: #a8c3f7;
+}
+
+.table_column_item_green {
+    background-color: #aaf7a8;
+}
+
+
+.item_wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_text {
+    max-width: 125px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.item_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;   
+}
+
+.item_name_blue {
+    background-color: #1d53db;
+}
+
+.item_name_black {
+    background-color: #d9d9d9;
+}
+
+.item_name_green {
+    background-color: #47b52b;
+}
